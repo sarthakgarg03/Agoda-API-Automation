@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Search Test Case</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Search Test Case</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 15 19:29:08 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6206 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love}</td>
+<td></td>
+<td>1</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And | OR), Tags=wisdom}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And) + Author, Tags=famous-quotes,inspirational}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags(OR) + Author, Tags=wisdom|friendship}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags(without And | OR) + Author, Tags=wisdom}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, Tags=}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, Tags=}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ author+page, Tags=wisdom}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+<tr>
+<td title='com.apiautomation.testcases.SearchQuote.TC()'><b>TC</b><br>Test class: com.apiautomation.testcases.SearchQuote<br>Parameters: 13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ author+page, Tags=wisdom}</td>
+<td></td>
+<td>0</td>
+<td>com.apiautomation.testcases.SearchQuote@5ae9a829</td></tr>
+</table><p>
+</body>
+</html>

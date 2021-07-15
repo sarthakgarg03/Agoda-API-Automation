@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Configuration">
+              <span class="suite-name border-passed">Configuration</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Configuration">
+                    <span>C:\Users\sarthak.garg\IdeaProjects\agoda\SuiteXmls\Regression\test\ConfigInitialization.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Configuration">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Configuration">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Configuration">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Configuration">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Configuration">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Configuration">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Parallel_Tests">
+              <span class="suite-name border-passed">Parallel Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parallel_Tests">
+                    <span>C:\Users\sarthak.garg\IdeaProjects\agoda\SuiteXmls\Regression\test\SearchQuote.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Parallel_Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Parallel_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Parallel_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Parallel_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parallel_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Parallel_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_Tests" class="hide-methods passed suite-Parallel_Tests"> (hide)</a> <!-- hide-methods passed suite-Parallel_Tests -->
+                      <a href="#" panel-name="suite-Parallel_Tests" class="show-methods passed suite-Parallel_Tests"> (show)</a> <!-- show-methods passed suite-Parallel_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...)">TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...)">TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...)">TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...)">TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...)">TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...)">TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})">TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...)">TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...)">TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...)">TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})">TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="com.apiautomation.testcases.SearchQuote" hash-for-method="TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...)">TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-IMDB_Automtion_Regression_Suite" class="panel IMDB_Automtion_Regression_Suite">
+        </div> <!-- panel IMDB_Automtion_Regression_Suite -->
+        <div panel-name="suite-Configuration" class="panel Configuration">
+        </div> <!-- panel Configuration -->
+        <div panel-name="suite-Parallel_Tests" class="panel Parallel_Tests">
+          <div class="suite-Parallel_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apiautomation.testcases.SearchQuote</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...)">
+                  </a> <!-- TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, Tags=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...)">
+                  </a> <!-- TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags(OR) + Author, Tags=wisdom|friendship})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...)">
+                  </a> <!-- TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...)">
+                  </a> <!-- TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags(without And | OR) + Author, Tags=wisdom})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...)">
+                  </a> <!-- TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And | OR), Tags=wisdom})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...)">
+                  </a> <!-- TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And) + Author, Tags=famous-quotes,inspirational})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})">
+                  </a> <!-- TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=}) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...)">
+                  </a> <!-- TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, Tags=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...)">
+                  </a> <!-- TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ author+page, Tags=wisdom})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...)">
+                  </a> <!-- TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ author+page, Tags=wisdom})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})">
+                  </a> <!-- TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=}) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...)">
+                  </a> <!-- TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...) -->
+                  <span class="method-name">TC</span>
+                  <span class="parameters">(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Tests-class-passed -->
+        </div> <!-- panel Parallel_Tests -->
+        <div panel-name="test-xml-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sarthak.garg\IdeaProjects\agoda\SuiteXmls\Regression\test\SearchQuoteRegression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;IMDB Automtion Regression Suite&quot;&gt;
+  &lt;parameter name=&quot;Environment&quot; value=&quot;test&quot;/&gt;
+  &lt;parameter name=&quot;TestingType&quot; value=&quot;regression&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.apiautomation.utils.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;ConfigInitialization.xml&quot;/&gt;
+    &lt;suite-file path=&quot;SearchQuote.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- IMDB Automtion Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sarthak.garg\IdeaProjects\agoda\SuiteXmls\Regression\test\ConfigInitialization.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Configuration&quot;&gt;
+  &lt;parameter name=&quot;Environment&quot; value=&quot;test&quot;/&gt;
+  &lt;parameter name=&quot;TestingType&quot; value=&quot;regression&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.apiautomation.utils.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Configure Constant Fields&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.apiautomation.environmentconfiguration.EnvVariablesConfig&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Configure Constant Fields --&gt;
+&lt;/suite&gt; &lt;!-- Configuration --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sarthak.garg\IdeaProjects\agoda\SuiteXmls\Regression\test\SearchQuote.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Parallel Tests&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;Environment&quot; value=&quot;test&quot;/&gt;
+  &lt;parameter name=&quot;TestingType&quot; value=&quot;regression&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.apiautomation.utils.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Search Test Case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.apiautomation.testcases.SearchQuote&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Test Case --&gt;
+&lt;/suite&gt; &lt;!-- Parallel Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for IMDB Automtion Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Configuration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Configure Constant Fields (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Search Test Case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for IMDB Automtion Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Configuration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for IMDB Automtion Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_IMDB_Automtion_Regression_Suite');
+function tableData_IMDB_Automtion_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['IMDB_Automtion_Regression_Suite']= { tableData: data, tableDiv: 'times-div-IMDB_Automtion_Regression_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-IMDB_Automtion_Regression_Suite">
+              </div> <!-- times-div-IMDB_Automtion_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Configuration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Configuration');
+function tableData_Configuration() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Configuration']= { tableData: data, tableDiv: 'times-div-Configuration'}
+return data;
+}
+              </script>
+              <div id="times-div-Configuration">
+              </div> <!-- times-div-Configuration -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_Tests');
+function tableData_Parallel_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC')
+data.setCell(0, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(0, 3, 1862);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC')
+data.setCell(1, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(1, 3, 582);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC')
+data.setCell(2, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(2, 3, 387);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC')
+data.setCell(3, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(3, 3, 385);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC')
+data.setCell(4, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(4, 3, 349);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC')
+data.setCell(5, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(5, 3, 338);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC')
+data.setCell(6, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(6, 3, 333);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC')
+data.setCell(7, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(7, 3, 317);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC')
+data.setCell(8, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(8, 3, 314);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC')
+data.setCell(9, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(9, 3, 305);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC')
+data.setCell(10, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(10, 3, 301);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC')
+data.setCell(11, 2, 'com.apiautomation.testcases.SearchQuote')
+data.setCell(11, 3, 298);
+window.suiteTableData['Parallel_Tests']= { tableData: data, tableDiv: 'times-div-Parallel_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Parallel_Tests">
+              </div> <!-- times-div-Parallel_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for IMDB Automtion Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Configuration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-IMDB_Automtion_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.environmentconfiguration.EnvVariablesConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">configureEnvironmentProperties(regression, test)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.testcases.SearchQuote</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...)</span>
+                <span class="method-start">1486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...)</span>
+                <span class="method-start">3350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...)</span>
+                <span class="method-start">3688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})</span>
+                <span class="method-start">4006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})</span>
+                <span class="method-start">4391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...)</span>
+                <span class="method-start">4705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...)</span>
+                <span class="method-start">5006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...)</span>
+                <span class="method-start">5311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...)</span>
+                <span class="method-start">5893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...)</span>
+                <span class="method-start">6191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...)</span>
+                <span class="method-start">6540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...)</span>
+                <span class="method-start">6873 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Configuration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.environmentconfiguration.EnvVariablesConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">configureEnvironmentProperties(regression, test)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.testcases.SearchQuote</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...)</span>
+                <span class="method-start">1486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...)</span>
+                <span class="method-start">3350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...)</span>
+                <span class="method-start">3688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})</span>
+                <span class="method-start">4006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})</span>
+                <span class="method-start">4391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...)</span>
+                <span class="method-start">4705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...)</span>
+                <span class="method-start">5006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...)</span>
+                <span class="method-start">5311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...)</span>
+                <span class="method-start">5893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...)</span>
+                <span class="method-start">6191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...)</span>
+                <span class="method-start">6540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...)</span>
+                <span class="method-start">6873 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.environmentconfiguration.EnvVariablesConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">configureEnvironmentProperties(regression, test)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.testcases.SearchQuote</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC(2, Tags(And), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love...)</span>
+                <span class="method-start">1486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(3, Tags(OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship...)</span>
+                <span class="method-start">3350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(4, Tags(without And | OR), {ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And |...)</span>
+                <span class="method-start">3688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(5, Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=})</span>
+                <span class="method-start">4006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(6, Page, {ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=})</span>
+                <span class="method-start">4391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(7, Tags(And) + Author, {ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And...)</span>
+                <span class="method-start">4705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(8, Tags(OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags...)</span>
+                <span class="method-start">5006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(9, Tags(without And | OR) + Author, {ExpectedStatusCode=200, Author=edward-everett-hale, Page=, Test...)</span>
+                <span class="method-start">5311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(10, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, ...)</span>
+                <span class="method-start">5893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(11, Author + page, {ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, ...)</span>
+                <span class="method-start">6191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(12, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ auth...)</span>
+                <span class="method-start">6540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC(13, tag+ author+page, {ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ auth...)</span>
+                <span class="method-start">6873 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

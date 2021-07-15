@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IMDB Automtion Regression Suite" duration-ms="0" started-at="2021-07-15T13:59:15Z" finished-at="2021-07-15T13:59:15Z">
+    <groups>
+    </groups>
+  </suite> <!-- IMDB Automtion Regression Suite -->
+  <suite name="Configuration" duration-ms="0" started-at="2021-07-15T13:59:08Z" finished-at="2021-07-15T13:59:08Z">
+    <groups>
+    </groups>
+    <test name="Configure Constant Fields" duration-ms="0" started-at="2021-07-15T13:59:08Z" finished-at="2021-07-15T13:59:08Z">
+      <class name="com.apiautomation.environmentconfiguration.EnvVariablesConfig">
+        <test-method status="PASS" signature="configureEnvironmentProperties(java.lang.String, java.lang.String)[pri:0, instance:com.apiautomation.environmentconfiguration.EnvVariablesConfig@26f67b76]" name="configureEnvironmentProperties" is-config="true" duration-ms="1019" started-at="2021-07-15T19:29:07Z" finished-at="2021-07-15T19:29:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[regression]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureEnvironmentProperties -->
+      </class> <!-- com.apiautomation.environmentconfiguration.EnvVariablesConfig -->
+    </test> <!-- Configure Constant Fields -->
+  </suite> <!-- Configuration -->
+  <suite name="Parallel Tests" duration-ms="6206" started-at="2021-07-15T13:59:08Z" finished-at="2021-07-15T13:59:14Z">
+    <groups>
+    </groups>
+    <test name="Search Test Case" duration-ms="6206" started-at="2021-07-15T13:59:08Z" finished-at="2021-07-15T13:59:14Z">
+      <class name="com.apiautomation.testcases.SearchQuote">
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="1862" started-at="2021-07-15T19:29:08Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags(And)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(And), Tags=friendship,love}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="338" started-at="2021-07-15T19:29:10Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags(OR)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(OR), Tags=wisdom|friendship}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="317" started-at="2021-07-15T19:29:11Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags(without And | OR)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=, Page=, TestCase_type=Tags(without And | OR), Tags=wisdom}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="385" started-at="2021-07-15T19:29:11Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Author]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Author, Tags=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="314" started-at="2021-07-15T19:29:11Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=, Page=4, TestCase_type=Page, Tags=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="301" started-at="2021-07-15T19:29:12Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags(And) + Author]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=helmut-schmidt, Page=, TestCase_type=Tags(And) + Author, Tags=famous-quotes,inspirational}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="305" started-at="2021-07-15T19:29:12Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags(OR) + Author]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags(OR) + Author, Tags=wisdom|friendship}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="582" started-at="2021-07-15T19:29:12Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags(without And | OR) + Author]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=edward-everett-hale, Page=, TestCase_type=Tags(without And | OR) + Author, Tags=wisdom}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="298" started-at="2021-07-15T19:29:13Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Author + page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, Tags=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="349" started-at="2021-07-15T19:29:13Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Author + page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=henry-ford, Page=1, TestCase_type=Author + page, Tags=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="333" started-at="2021-07-15T19:29:13Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tag+ author+page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ author+page, Tags=wisdom}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+        <test-method status="PASS" signature="TC(int, java.lang.String, java.util.Map)[pri:0, instance:com.apiautomation.testcases.SearchQuote@5ae9a829]" name="TC" duration-ms="387" started-at="2021-07-15T19:29:14Z" data-provider="searchQuotesDataProvider" finished-at="2021-07-15T19:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tag+ author+page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{ExpectedStatusCode=200, Author=francis-bacon, Page=1, TestCase_type=tag+ author+page, Tags=wisdom}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+      </class> <!-- com.apiautomation.testcases.SearchQuote -->
+    </test> <!-- Search Test Case -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>

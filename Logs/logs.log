@@ -1,0 +1,16 @@
+2021-07-15 19:29:07 main [INFO ] EnvVariablesConfig:44 - environment: test TestingType: smoke
+2021-07-15 19:29:07 main [INFO ] EnvVariablesConfig:50 - Reading Environment.Config file from location: Config//smoke//test//EnvironmentConfig//environment.cfg
+2021-07-15 19:29:08 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?tags=friendship%2Clove
+2021-07-15 19:29:10 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?tags=wisdom%7Cfriendship
+2021-07-15 19:29:11 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?tags=wisdom
+2021-07-15 19:29:11 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=edward-everett-hale
+2021-07-15 19:29:11 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?page=4
+2021-07-15 19:29:12 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=helmut-schmidt&tags=famous-quotes%2Cinspirational
+2021-07-15 19:29:12 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=edward-everett-hale&tags=wisdom%7Cfriendship
+2021-07-15 19:29:12 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=edward-everett-hale&tags=wisdom
+2021-07-15 19:29:13 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=henry-ford&page=4
+2021-07-15 19:29:13 TestNG [INFO ] SearchQuote:44 - No Data found for params {ExpectedStatusCode=200, Author=henry-ford, Page=4, TestCase_type=Author + page, Tags=}
+2021-07-15 19:29:13 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=henry-ford&page=1
+2021-07-15 19:29:13 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=francis-bacon&page=4&tags=wisdom
+2021-07-15 19:29:14 TestNG [INFO ] SearchQuote:44 - No Data found for params {ExpectedStatusCode=200, Author=francis-bacon, Page=4, TestCase_type=tag+ author+page, Tags=wisdom}
+2021-07-15 19:29:14 TestNG [INFO ] APIExecutor:77 - API URI: https://api.quotable.io/quotes?author=francis-bacon&page=1&tags=wisdom

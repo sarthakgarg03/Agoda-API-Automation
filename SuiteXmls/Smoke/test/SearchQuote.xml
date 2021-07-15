@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel Tests" parallel="tests" thread-count="1" >
+
+    <test name="Search Test Case">
+        <classes>
+            <class name="com.apiautomation.testcases.SearchQuote"></class>
+        </classes>
+    </test>
+
+
+
+</suite>

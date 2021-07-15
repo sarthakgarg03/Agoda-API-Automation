@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="IMDB Automtion Regression Suite">
+
+    <parameter name="TestingType" value="smoke"/>
+    <parameter name="Environment" value="dev"/>
+
+    <listeners>
+        <listener class-name="com.apiautomation.utils.ExtentReporterNG"/>
+    </listeners>
+
+
+    <suite-files>
+
+        <!--This is mandatory to add in each TestNG file for Configuration before TestCases SuiteFiles -->
+        <suite-file path="ConfigInitialization.xml"></suite-file>
+        <!---->
+
+        <suite-file path="SearchQuote.xml"></suite-file>
+
+    </suite-files>
+
+</suite>
