@@ -53,3 +53,12 @@ Reporting:
 * Extent Report is implemented by class src\test\java\com\automation\Utils\ExtentReporterNG.java and store extent report at ./target/surefire-reports/TestExecutionReport.html Path 
 *  The framework also  produce index.html report. It resides in the same 'target\surefire-reports' folder. This reports gives the link to all the different component of the TestNG reports like Groups & Reporter Output. On clicking these will display detailed descriptions of execution.
 *  You can also find emailable-report.html from target\surefire-reports to email the test reports. As this is a html report you can open it with browser.
+
+
+JenkinsScreenshot:
+- - - -- - - - -- - -
+* this folder contains docx file which contains screenshot of jenkins dashboard, job, execution, Publish HTML Report
+
+Agoda assignment1
+- - - - - - - - - - -  -
+* this folder contain xlsx file which contains test plan which is created for assignment1.
